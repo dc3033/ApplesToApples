@@ -7,7 +7,7 @@
 
 
 # Introduction
-**Company QoLSearch: Search and compare company quality of life ratings in a flash!**
+**Apples to Apples: Comparing quality of life at thousands of companies, on the cloud**
 
 This is a project I completed in 3 weeks as part of the Insight Data Engineering Program during the NYC Summer 2019 session. The goal of the project is to create a dashboard that allows you to search and compare companies based on their quality of life ratings, such as work/life balance and benefits. The data used in the dashboard is obtained from scraping review data from Glassdoor.com. 
 
