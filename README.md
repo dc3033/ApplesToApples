@@ -62,7 +62,7 @@ then save.
 
 **AWS Kinesis Data Stream**
 
-From the AWS Kinesis dashboard, create a data stream named 'ReviewStream' and set the number of shards to 50.
+From the AWS Kinesis dashboard, create a data stream named 'ReviewStream' and set the number of shards to 20. More shards will increase your throughput limit, but will also increase costs.
 
 **AWS Redshift**
 
