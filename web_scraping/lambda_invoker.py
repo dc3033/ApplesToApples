@@ -107,7 +107,7 @@ while mainHasNext:
 print('Retrying links with connection errors...')
 for failedLink in failedLinkList:
     try:
-        link = requests.get(failedLink), headers=headers)
+        link = requests.get(failedLink, headers=headers)
     except requests.exceptions.ConnectionError:
         #invoke lambda function that sets off CloudWatch alarm, then make changes for next loop and continue
         print('Connection error on ' + failedLink)
